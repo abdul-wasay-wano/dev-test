@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Drawer, Space } from "antd";
 import { Layout } from "antd";
-import { CloseOutlined, MenuOutlined } from "@ant-design/icons";
+import { MenuOutlined } from "@ant-design/icons";
 import MobileMenu from "./MobileMenu";
 import { AppLogo } from "./AppLogo";
 import { HeaderMenu } from "./HeaderMenu";
@@ -56,10 +56,7 @@ const AppHeader: React.FC = () => {
         extra={
           <Space className="">
             <div className="flex justify-between">
-              
-              <div className="close-icon text-white">
-                
-              </div>
+              <div className="close-icon text-white"></div>
             </div>
             <div className="w-full mx-auto flex justify-between items-center ">
               <TicketBar />

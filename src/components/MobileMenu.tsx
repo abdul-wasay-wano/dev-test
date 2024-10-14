@@ -1,4 +1,3 @@
-// src/components/MobileMenu.tsx
 import React from "react";
 
 interface MobileMenuProps {
